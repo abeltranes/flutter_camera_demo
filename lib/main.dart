@@ -14,6 +14,7 @@ Future<void> main() async {
     print('Error in fetching the cameras: $e');
   }
   runApp(MyApp());
+  
 }
 
 class MyApp extends StatelessWidget {
